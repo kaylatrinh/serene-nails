@@ -1,7 +1,7 @@
-import Header from "../components/Header"
-import Hero from "../components/Hero"
-import Services from "../components/Services"
-import Gallery from "../components/Gallery"
+import Header from "../components/Header/Header"
+import Hero from "../components/Welcome/Hero"
+import Services from "../components/NailServices/Services"
+// import Gallery from "../components/Gallery"
 import Footer from "../components/Footer"
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Services />
-        <Gallery />
+        {/* <Gallery /> */}
       </main>
       <Footer />
     </div>

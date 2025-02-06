@@ -5,7 +5,7 @@ export default function Header() {
     <header className="bg-pink-100 py-4">
       <nav className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-pink-600">
-          Glamour Nails
+          Serene Nails
         </Link>
         <ul className="flex space-x-4">
           <li>

@@ -5,10 +5,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <p>123 Beauty Street</p>
-            <p>Nail City, NC 12345</p>
-            <p>Phone: (555) 123-4567</p>
-            <p>Email: info@glamournails.com</p>
+            <p>1387 Lincoln Ave</p>
+            <p>San Jose, CA 95125</p>
+            <p>(669) 208-8836</p>
+            <p>serenenails2025@gmail.com</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Hours</h3>
@@ -19,15 +19,15 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-pink-200">
+              {/* <a href="#" className="hover:text-pink-200">
                 Facebook
-              </a>
-              <a href="#" className="hover:text-pink-200">
+              </a> */}
+              <a href="https://www.instagram.com/serenenails.wg/" className="hover:text-pink-200">
                 Instagram
               </a>
-              <a href="#" className="hover:text-pink-200">
+              {/* <a href="#" className="hover:text-pink-200">
                 Twitter
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
