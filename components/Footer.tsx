@@ -12,9 +12,10 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Hours</h3>
-            <p>Monday - Friday: 9am - 7pm</p>
+            <p>Monday: Closed</p>
+            <p>Tuesday - Friday: 10am - 7pm</p>
             <p>Saturday: 10am - 6pm</p>
-            <p>Sunday: Closed</p>
+            <p>Sunday: 10am - 5pm</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
