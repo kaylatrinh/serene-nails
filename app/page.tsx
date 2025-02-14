@@ -3,6 +3,7 @@ import Hero from "../components/Welcome/Hero"
 import Services from "../components/NailServices/Services"
 // import Gallery from "../components/Gallery"
 import Footer from "../components/Footer"
+import Booking from "../components/Bookings/Booking"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Services />
+        <Booking />
         {/* <Gallery /> */}
       </main>
       <Footer />

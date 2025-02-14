@@ -1,0 +1,5 @@
+.menu-container {
+    display: grid;                     /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr);  /* 3 equal columns by default */                      /* Space between the items */
+    width: 100%;                 /* Full width of the container */
+  }
