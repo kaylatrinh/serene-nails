@@ -10,9 +10,9 @@ export default function Services() {
   // ]
 
   return (
-    <section id="services" className="py-16 bg-rose-50">
+    <section id="services" className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8 text-pink-600">Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-green-950 text-opacity-75">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div><img src="prices/2.png" alt="My Image" /></div>
         <div><img src="prices/3.png" alt="My Image" /></div>
