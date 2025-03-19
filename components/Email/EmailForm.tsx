@@ -12,25 +12,27 @@ export default function EmailForm() {
 
         const formData = new FormData(e.currentTarget as HTMLFormElement);
         const data = Object.fromEntries(formData.entries());
-
+        console.log(data)
         fetch("/api/send", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
+            body: formData,
         })
-            .then((response) => {
-                if (response.ok) {
-                    alert("Email sent successfully!");
-                } else {
-                    alert("Failed to send email.");
-                }
-            })
-            .catch((error) => {
-                console.error("Error:", error);
-                alert("An error occurred while sending the email.");
-            });
+        .then(async (response) => {
+            if (response.ok) {
+                const [data] = await Promise.all([response.json()]);
+                console.log(data)
+                alert("Email sent successfully!");
+                setName("");
+                setEmail("");
+                setMessage("");
+            } else {
+                alert("Failed to send email.");
+            }
+        })
+        .catch((error) => {
+            console.error("Error:", error);
+            alert("An error occurred while sending the email.");
+        });
     };
 
     return (
@@ -49,7 +51,7 @@ export default function EmailForm() {
                 <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
                 <input type="email"
                        id="email"
-                       name="_replyto"
+                       name="email"
                        value={email}
                        onChange={(e) => setEmail(e.target.value)}
                        required
