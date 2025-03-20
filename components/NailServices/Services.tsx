@@ -14,9 +14,9 @@ export default function Services() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-green-950 text-opacity-75">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div><img src="prices/2.png" alt="My Image" /></div>
-        <div><img src="prices/3.png" alt="My Image" /></div>
-        <div><img src="prices/1.png" alt="My Image" /></div>
+        <div><img src="/prices/nails2.PNG" alt="My Image" /></div>
+        <div><img src="/prices/nails3.PNG" alt="My Image" /></div>
+        <div><img src="/prices/nails1.PNG" alt="My Image" /></div>
         </div>
       </div>
     </section>
