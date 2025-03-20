@@ -36,7 +36,7 @@ export default function EmailForm() {
     };
 
     return (
-            <form onSubmit={onSubmit} className="max-w-lg mx-auto">
+            <form onSubmit={onSubmit} className="max-w-lg mx-auto p-4">
             <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 mb-2">Name</label>
                 <input type="text"
@@ -58,7 +58,7 @@ export default function EmailForm() {
                        className="w-full border border-gray-300 p-2 rounded"/>
             </div>
             <div className="mb-4">
-                <label htmlFor="message" className="block text-gray-700 mb-2">Message</label>
+                <label htmlFor="message" className="block text-gray-700 mb-2">Date, time and service</label>
                 <textarea id="message"
                           name="message"
                           value={message}
@@ -67,7 +67,7 @@ export default function EmailForm() {
                           rows={4}
                           className="w-full border border-gray-300 p-2 rounded"></textarea>
             </div>
-            <button type="submit" className="bg-pink-600 text-white py-2 px-6 rounded-full hover:bg-pink-700 transition duration-300">Send Message</button>
+            <button type="submit" className="bg-green-950 bg-opacity-75 text-white py-2 px-6 rounded-full hover:bg-green-950 transition duration-300">Submit</button>
             </form>
     )
 }

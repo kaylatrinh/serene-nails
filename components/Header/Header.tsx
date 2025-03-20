@@ -7,17 +7,17 @@ export default function Header() {
         <div></div>
         <ul className="flex space-x-4">
           <li>
-            <Link href="#services" className="text-black hover:text-pink-800">
+            <Link href="#services" className="text-black hover:text-green-800">
               Services
             </Link>
           </li>
           <li>
-            <Link href="#gallery" className="text-black hover:text-pink-800">
-              Gallery
+            <Link href="#booking" className="text-black hover:text-green-800">
+              Book
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="text-black hover:text-pink-800">
+            <Link href="#contact" className="text-black hover:text-green-800">
               Contact
             </Link>
           </li>

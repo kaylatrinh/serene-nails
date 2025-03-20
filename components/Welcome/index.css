@@ -2,5 +2,8 @@
 
 .alex-brush {
   font-family: 'Alex Brush', cursive;
-  font-size: 200px;
+}
+
+h6 {
+  padding-bottom: 20px;
 }
