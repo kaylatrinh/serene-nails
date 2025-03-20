@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative h-[500px]">
       <div className="absolute inset-0 bg-green-900 bg-opacity-50 flex items-center justify-center">
           <div className="text-center">
-              <h1 className="text-3xl md:text-5xl sm:text-5xl text-black border-black mb-4 alex-brush">Serene Nails</h1>
+              <h1 className="text-5xl sm:text-7xl md:text-9xl lg:text-[200px]  text-black border-black mb-4 alex-brush">Serene Nails</h1>
               <h6 className="text-right text-black sm:text-2xl">At Willow Glen</h6>
               <a
                   href="#contact"

@@ -67,7 +67,7 @@ export default function EmailForm() {
                           rows={4}
                           className="w-full border border-gray-300 p-2 rounded"></textarea>
             </div>
-            <button type="submit" className="bg-pink-600 text-white py-2 px-6 rounded-full hover:bg-pink-700 transition duration-300">Send Message</button>
+            <button type="submit" className="bg-green-950 bg-opacity-75 text-white py-2 px-6 rounded-full hover:bg-green-950 transition duration-300">Send Message</button>
             </form>
     )
 }
