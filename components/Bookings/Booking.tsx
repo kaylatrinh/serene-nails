@@ -31,7 +31,7 @@ export default function Booking() {
                 aria-label="Platform"
             >
                 <ToggleButton value="email">Email</ToggleButton>
-                <ToggleButton value="calendly">Calendly</ToggleButton>
+                <ToggleButton value="calendly">Calendar</ToggleButton>
             </ToggleButtonGroup>
         </h6>
         { alignment === 'email' && <EmailForm/> }
