@@ -1,13 +1,15 @@
 'use client'
 
 import {InlineWidget} from "react-calendly";
+import React from "react";
 
 export default function Calendly() {
+    const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL as string ?? '';
     return (
        <InlineWidget
-            data-url="https://calendly.com/peter-nguyen-calendly/30min"
+            data-url={calendlyUrl}
             data-resize="true"
-            url={"https://calendly.com/peter-nguyen-calendly/30min"}
+            url={calendlyUrl}
        />
     )
 }
