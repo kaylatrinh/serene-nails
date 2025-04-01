@@ -1,0 +1,11 @@
+.calendly-container {
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .calendly-container {
+        min-height: 100vh;
+    }
+}
